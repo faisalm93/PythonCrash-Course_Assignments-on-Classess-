@@ -1,0 +1,19 @@
+class Restaurant:
+    def __init__(myrestuarant, restaurant_name, cuisine_type):
+        myrestuarant.restaurant_name = restaurant_name
+        myrestuarant.cuisine_type = cuisine_type
+
+    def describe_restaurant(myrestuarant):
+        print(f"Restaurant name: {myrestuarant.restaurant_name}")
+        print(f"Cuisine type: {myrestuarant.cuisine_type}")
+
+# create three instances of Restaurant
+restaurant1 = Restaurant("Iyabo Restuarants", "Yoruba's Amala")
+restaurant2 = Restaurant("Ngozi Restuarants", "Igbo's Agbu")
+restaurant3 = Restaurant("Yar fulani Restuarants", "Fulfulde Fura da nono")
+
+# call the describe_restaurant() method for each instance
+restaurant1.describe_restaurant()
+restaurant2.describe_restaurant()
+restaurant3.describe_restaurant()
+
