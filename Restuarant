@@ -1,0 +1,15 @@
+class Restaurant:
+    def __init__(myrestuarant, restaurant_name, cuisine_type):
+        myrestuarant.restaurant_name = restaurant_name
+        myrestuarant.cuisine_type = cuisine_type
+
+    def describe_restaurant(myrestuarant):
+        print(f"Restaurant name: {myrestuarant.restaurant_name}")
+        print(f"Cuisine type: {myrestuarant.cuisine_type}")
+
+    def open_restaurant(myrestuarant):
+        print(f"{myrestuarant.restaurant_name} is now open!")
+
+my_restaurant = Restaurant("Dan Hausa Restuarant", "Abincin mu na Gargajiya")
+my_restaurant.describe_restaurant()
+my_restaurant.open_restaurant()
