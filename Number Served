@@ -1,0 +1,28 @@
+class Restaurant:
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
+        self.number_served = 0
+
+    def describe_restaurant(self):
+        print(f"Restaurant name: {self.restaurant_name}")
+        print(f"Cuisine type: {self.cuisine_type}")
+        print(f"Number served: {self.number_served}")
+
+    def increment_number_served(self, num_customers):
+        self.number_served += num_customers
+
+# create three instances of Restaurant
+restaurant1 = Restaurant("Iyabo Restuarants", "Yoruba's Amala")
+restaurant2 = Restaurant("Ngozi Restuarants", "Igbo's Agbu")
+restaurant3 = Restaurant("Yar fulani Restuarants", "Fulfulde Fura da nono")
+
+# serve some customers at each restaurant
+restaurant1.increment_number_served(10)
+restaurant2.increment_number_served(20)
+restaurant3.increment_number_served(30)
+
+# call the describe_restaurant() method for each instance
+restaurant1.describe_restaurant()
+restaurant2.describe_restaurant()
+restaurant3.describe_restaurant()
