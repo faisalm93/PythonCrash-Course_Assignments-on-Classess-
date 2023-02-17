@@ -13,3 +13,17 @@ class Restaurant:
 my_restaurant = Restaurant("Dan Hausa Restuarant", "Abincin mu na Gargajiya")
 my_restaurant.describe_restaurant()
 my_restaurant.open_restaurant()
+
+# this is how i create an instance of Restaurant
+restaurant = Restaurant("Yar Borno Restuarant ", "Burabisko")
+
+# this is how i print the restaurant_name and cuisine_type attributes individually
+print(restaurant.restaurant_name)
+print(restaurant.cuisine_type)
+
+# this is how i call the describe_restaurant() method
+restaurant.describe_restaurant()
+
+# this is how i call the open_restaurant() method
+restaurant.open_restaurant()
+
