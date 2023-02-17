@@ -1,0 +1,62 @@
+class User:
+    def __init__(felow, first_name, last_name, username, email, location):
+        felow.first_name = first_name
+        felow.last_name = last_name
+        felow.username = username
+        felow.email = email
+        felow.location = location
+
+    def describe_user(felow):
+        print(f"First name: {felow.first_name}")
+        print(f"Last name: {felow.last_name}")
+        print(f"Username: {felow.username}")
+        print(f"Email: {felow.email}")
+        print(f"Location: {felow.location}")
+
+    def greet_user(felow):
+        print(f"Hello, {felow.first_name} {felow.last_name}! Welcome back.")
+
+my_user = User("Faisal", "Adam", "faisalm93", "faisaladamm@gmail.com", "Kano")
+my_user.describe_user()
+my_user.greet_user()
+print()
+
+
+
+
+class User:
+    def __init__(felow, first_name, last_name, username, email, location):
+        felow.first_name = first_name
+        felow.last_name = last_name
+        felow.username = username
+        felow.email = email
+        felow.location = location
+
+    def describe_user(felow):
+        print(f"First name: {felow.first_name}")
+        print(f"Last name: {felow.last_name}")
+        print(f"Username: {felow.username}")
+        print(f"Email: {felow.email}")
+        print(f"Location: {felow.location}")
+
+    def greet_user(felow):
+        print(f"Hello, {felow.first_name} {felow.last_name}! Welcome back.")
+
+        print()
+
+
+# create three instances of User
+user1 = User("Indo ", "Lado", "indol123", "indo123@yahoo.com", " Jigawa")
+user2 = User("ADo", "Sani", "adosani456", "as456@yahoo.com", "Lagos")
+user3 = User("Barau", "Janwuya", "bbj789", "bjanwuyah789@example.com", "Cross river")
+# call the describe_user() and greet_user() methods for each instance, with a newline in between
+user1.describe_user()
+user1.greet_user()
+print()
+
+user2.describe_user()
+user2.greet_user()
+print()
+
+user3.describe_user()
+user3.greet_user()
